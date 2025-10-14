@@ -34,7 +34,7 @@ Personalized news feed, dev communities, and search, much better than what’s o
 <sup>Want to contribute? Get started with Gitpod by clicking the button below</sup>
 
 <p align="center">
-  <a href="https://gitpod.io/#https://github.com/dailydotdev/apps/">
+  <a href="https://gitpod.io/new#https://github.com/dailydotdev/apps/">
     <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod">
   </a>
 </p>
