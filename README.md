@@ -31,13 +31,7 @@ Personalized news feed, dev communities, and search, much better than what’s o
 [![][share-mastodon-shield]][share-mastodon-link]
 [![][share-linkedin-shield]][share-linkedin-link]
 
-<sup>Want to contribute? Get started with Gitpod by clicking the button below</sup>
-
-<p align="center">
-  <a href="https://gitpod.io/#https://github.com/dailydotdev/apps/">
-    <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod">
-  </a>
-</p>
+<sup>Want to contribute? [Run our app locally](https://github.com/dailydotdev/daily?tab=readme-ov-file#-running-dailydev-locally)</sup>
 
 <img src="assets/github repo banner with browser.png" alt="daily.dev cover image" width="100%">
 </br>
@@ -126,7 +120,12 @@ daily.dev might look simple on the surface, but actually, it is powered by a com
 > Currently, not all services are ready (or needed) for local environments, so Daily Redirector, Daily Monetization, and Authentication services are not available for you.
 
 
-To spin up a local environment, we suggest using GitPod. Everything is already configured and should work out of the box. We have a GitPod button above, click on it, and let's roll!
+To spin up a local environment, you will need Docker. Do the steps below and you should be able to start trying to center a div:
+- Fork this repo: https://github.com/dailydotdev/apps
+- Pull it locally
+- Run `docker compose up`
+- Once done, seed your local data by running `docker compose exec daily-api node ./bin/import`
+- Then lastly, run `npm run dev:oss`
 
 ## 🙌 Want to contribute?
 
