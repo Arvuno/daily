@@ -126,6 +126,7 @@ To spin up a local environment, you will need Docker. Do the steps below and you
 - Run `docker compose up`
 - Once done, seed your local data by running `docker compose exec daily-api node ./bin/import`
 - Then lastly, run `npm run dev:oss`
+- The app should run at `http://localhost:5002/`
 
 ## 🙌 Want to contribute?
 
